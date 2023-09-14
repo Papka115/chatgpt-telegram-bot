@@ -5,8 +5,8 @@ services:
     image: ghcr.io/leafduo/chatgpt-telegram-bot:latest
     restart: always
     environment:
-      - OPENAI_API_KEY=<your_openai_api_key>
-      - TELEGRAM_APITOKEN=<your_telegram_bot_token>
+      - OPENAI_API_KEY=<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>
+      - TELEGRAM_APITOKEN=<6128292141:AAFS8ueJTu91Qo1of7bAilpjU__flGt_zfE>
       # optional, default is empty. Only allow these users to use the bot. Empty means allow all users.
       - ALLOWED_TELEGRAM_ID=<your_telegram_id>,<your_friend_telegram_id>
       # optional, default is 1.0. Higher temperature means more random responses.
